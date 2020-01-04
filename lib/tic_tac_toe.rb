@@ -67,6 +67,7 @@ WIN_COMBINATIONS.detect do |win_combination|
     return false
   end
 end
+end
 
 def full?(board)
   board.all? do |position|
