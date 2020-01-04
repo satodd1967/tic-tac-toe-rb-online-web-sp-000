@@ -104,7 +104,7 @@ end
 if winner(board) != nil
   puts "Congratulations #{winner(board)}!"
   elsif
-  winner(board) = nil
+  winner(board) == nil
   puts "Cats Game"
 else
   play(board)
