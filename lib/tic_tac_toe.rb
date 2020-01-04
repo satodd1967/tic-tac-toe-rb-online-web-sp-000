@@ -97,6 +97,7 @@ def play(board)
     else !won?(board)
       puts "Cat's Game"
     end
+  end
     play(board)
   end
   
