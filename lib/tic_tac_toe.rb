@@ -100,9 +100,10 @@ end
 end
 
 def play(board)
-  if over?(board) == true
+  if over?(board)
     message(board)
   else
+    turn(board)
     play(board)
   end
 end
