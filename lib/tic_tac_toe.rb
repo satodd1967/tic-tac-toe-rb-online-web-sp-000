@@ -83,7 +83,14 @@ def over?(board)
   end
 end
 
-
+def message(board)
+  if over?(board) == true && winner(board) != nil
+    puts "Congratulations #{winner(board)}!"
+  else
+    if over?(board) == true && winner(board) == nil
+      puts "Cats Game!"
+  end
+end
 
 def winner(board)
   if won?(board)
