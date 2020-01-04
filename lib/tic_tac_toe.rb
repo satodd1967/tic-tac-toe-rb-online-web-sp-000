@@ -99,11 +99,15 @@ def message(board)
 end
 
 def play(board)
- if over?(board) == true
- end
- turn(board)
- end
- end
+  turn(board)
+  if over?(board) == true && winner(board) != nil
+    puts "Congratulations #{winner(board)}!"
+  elsif over?(board) == true && winner(board) == nil
+  puts "Cat's Game!"
+    else
+    play(board)
+  end
+end
 
  
 
