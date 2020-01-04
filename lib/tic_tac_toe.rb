@@ -101,10 +101,10 @@ end
 
 def play(board)
   if over?(board)
-end
-turn(board)
-message(board)
-play(board)
+    message(board)
+  else
+    play(board)
+  end
 end
  
 
