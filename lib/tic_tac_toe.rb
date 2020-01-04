@@ -94,18 +94,12 @@ def play(board)
   if over?(board)
     if won?(board)
     puts "Congratulations #{winner(board)}!"
-    elsif !won?(board)
+    else !won?(board)
       puts "Cat's Game"
-    else
+    end
     play(board)
   end
-end
-end
-
-
-   
- 
-
+  
 
 
 
