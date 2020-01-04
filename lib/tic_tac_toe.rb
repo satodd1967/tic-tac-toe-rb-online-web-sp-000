@@ -93,7 +93,7 @@ def message(board)
   if winner(board) != nil
     puts "Congratulations #{winner(board)}!"
   else
-    if winner(board) == false
+    if winner(board) == nil
       puts "Cat's Game!"
   end
 end
