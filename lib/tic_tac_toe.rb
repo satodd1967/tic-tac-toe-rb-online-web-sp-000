@@ -103,7 +103,6 @@ def play(board)
  end
  turn(board)
  message(board)
- play(board)
  end
  end
  
