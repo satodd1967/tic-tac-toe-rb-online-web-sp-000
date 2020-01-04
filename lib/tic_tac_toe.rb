@@ -96,10 +96,9 @@ def play(board)
     puts "Congratulations #{winner(board)}!"
     else
       puts "Cat's Game")
-    else
-      play(board)
-end
-end
+    end
+    play(board)
+  end
 
 
    
