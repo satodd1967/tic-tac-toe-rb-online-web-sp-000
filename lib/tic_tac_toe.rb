@@ -91,6 +91,7 @@ def message(board)
       puts "Cats Game!"
   end
 end
+end
 
 def winner(board)
   if won?(board)
