@@ -105,6 +105,8 @@ def play(board)
  message(board)
  play(board)
  end
+ end
+ 
 
  
 
