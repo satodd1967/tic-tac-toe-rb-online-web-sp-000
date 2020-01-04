@@ -60,8 +60,11 @@ def current_player(board)
 end
 
 def won?(board)
-WIN_COMBINATIONS.detect do |win_combination|
-  (board[win_combination[0]] == "X" && board[win_combination[1]] == "X" && board[win_combination[2]] == "X") || (board[win_combination[0]] == "O" && board[win_combination[1]] == "O" && board[win_combination[2]] == "O")
+if (WIN_COMBINATIONS.detect do |win_combination|
+  (board[win_combination[0]] == "X" && board[win_combination[1]] == "X" && board[win_combination[2]] == "X") || (board[win_combination[0]] == "O" && board[win_combination[1]] == "O" && board[win_combination[2]] == "O")) == nil
+  return false
+else
+  
   end
 end
 
