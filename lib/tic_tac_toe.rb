@@ -98,18 +98,7 @@ def message(board)
 end
 
 def play(board)
-  turn(board)
-  if over?(board) == true
-end
-if winner(board)
-  puts "Congratulations #{winner(board)}!"
-else
-  puts "Cats Game!"
-end
-  if !over?(board)
-    play(board)
-end
-end
+ 
 
   
 
