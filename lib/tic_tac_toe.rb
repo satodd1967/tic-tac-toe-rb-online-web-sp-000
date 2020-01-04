@@ -104,7 +104,7 @@ end
 if winner(board)
   puts "Congratulations #{winner(board)}!"
 else
-  puts "Cats Game"
+  puts "Cats Game!"
 end
   if !over?(board)
     play(board)
