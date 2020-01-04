@@ -98,6 +98,11 @@ def message(board)
 end
 
 def play(board)
+ if over?(board) == true
+ end
+ turn(board)
+ end
+
  
 
   
