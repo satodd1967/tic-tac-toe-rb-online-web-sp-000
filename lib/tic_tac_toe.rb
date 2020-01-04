@@ -109,7 +109,7 @@ if winner(board) != nil
 else
   play(board)
 end
-
+end
 
   
 
