@@ -92,8 +92,7 @@ end
 def play(board)
   turn(board)
   if over?(board)
-end
-play(board)
+    (if )
 end
 
 
