@@ -94,7 +94,7 @@ def message(board)
     puts "Congratulations #{winner(board)}!"
   else
     if winner(board) == false
-      puts "Cats Game!"
+      puts "Cat's Game!"
   end
 end
 end
