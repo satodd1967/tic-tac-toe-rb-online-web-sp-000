@@ -83,6 +83,12 @@ def over?(board)
   end
 end
 
+def winner(board)
+  if won?(board)
+    return board[won?(board)[0]]
+  end
+end
+
 def message(board)
   if over?(board) == true && winner(board) != nil
     puts "Congratulations #{winner(board)}!"
@@ -92,14 +98,6 @@ def message(board)
   end
 end
 end
-
-def winner(board)
-  if won?(board)
-    return board[won?(board)[0]]
-  end
-end
-
-
 
 def play(board)
   if over?(board)
