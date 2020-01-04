@@ -91,13 +91,10 @@ end
 
 def play(board)
   turn(board)
-  if over?(board) == true && winner(board) != nil
-    puts "Congratulations #{winner(board)}!"
-  elsif over?(board) == true && winner(board) == nil
-  puts "Cat's Game!"
-    else
-    play(board)
-  end
+  if over?(board)
+end
+play(board)
+end
 end
 
    
