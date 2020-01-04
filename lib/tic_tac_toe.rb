@@ -100,6 +100,7 @@ def play(board)
     play(board)
   end
 end
+end
 
 
    
