@@ -100,11 +100,16 @@ end
 def play(board)
   turn(board)
   if over?(board) == true
-    message(board)
-  else
-    play(board)
-  end
 end
+if winner(board) != nil
+  puts "Congratulations #{winner(board)}!"
+  elsif
+  winner(board) = nil
+  puts "Cats Game"
+else
+  play(board)
+end
+
 
   
 
