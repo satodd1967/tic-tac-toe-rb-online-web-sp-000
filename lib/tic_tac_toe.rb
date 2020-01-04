@@ -94,7 +94,7 @@ def play(board)
   if over?(board)
     if won?(board) != nil
     puts "Congratulations #{winner(board)}!"
-    elsif won?(board) = nil
+    elsif won?(board) == nil
       puts "Cat's Game"
     else
     play(board)
