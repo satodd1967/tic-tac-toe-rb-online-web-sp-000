@@ -99,6 +99,7 @@ def play(board)
     else
       play(board)
 end
+end
 
 
    
