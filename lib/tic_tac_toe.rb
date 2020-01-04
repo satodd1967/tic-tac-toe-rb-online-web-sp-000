@@ -103,7 +103,7 @@ def play(board)
   if over?(board)
 end
 turn(board)
-
+message(board)
 end
  
 
